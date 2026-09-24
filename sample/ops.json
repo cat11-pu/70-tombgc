@@ -1,0 +1,17 @@
+{
+  "budget": 1,
+  "watermark": 5,
+  "safety_invariant": true,
+  "ops": [
+    {"op": "put", "key": "a", "value": "1", "at": 1},
+    {"op": "delete", "key": "a", "at": 2},
+    {"op": "put", "key": "b", "value": "2", "at": 3},
+    {"op": "delete", "key": "b", "at": 4},
+    {"op": "put", "key": "c", "value": "3", "at": 5},
+    {"op": "delete", "key": "c", "at": 7},
+    {"op": "put", "key": "e", "value": "5", "at": 2},
+    {"op": "delete", "key": "e", "at": 3},
+    {"op": "put", "key": "d", "value": "4", "at": 8},
+    {"op": "delete", "key": "d", "at": 9}
+  ]
+}
